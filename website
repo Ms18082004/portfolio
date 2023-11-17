@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>My Portfolio</title>
+  <style>
+  </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navigation -->
+  <nav class="bg-blue-500 p-4 text-white">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <div class="text-2xl font-bold">My Portfolio</div>
+        <div class="space-x-4">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-gray-800 text-white h-screen flex items-center justify-center">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold mb-4">Hello, I'm MONAMI SEN </h1>
+      <p class="text-lg">A 2nd Year CSE Core Student at SRM</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto my-8">
+    <h2 class="text-2xl font-bold mb-4">About Me</h2>
+    <p>I am a robotics and syber secuirity ethusiast. I have done many workshops.One of them was related to smart robots and their real world aplication and another one was related to embeded system design in automotive electronics
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mx-auto my-8">
+    <h2 class="text-2xl font-bold mb-4">Projects</h2>
+    <!-- Add your projects here -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-4 rounded shadow-md">
+        <h3 class="text-xl font-bold mb-2">Project 1</h3>
+        <p>It was about building indeginous smart robots for real world applications using AI skills</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto my-8">
+    <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+    <p>You can reach out to me at [ms8841@srmist.edu.in]</div>.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white p-4 text-center">
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // You can add any additional JavaScript for interactivity here
+  </script>
+
+</body>
+
+</html>
